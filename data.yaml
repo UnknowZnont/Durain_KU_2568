@@ -1,0 +1,14 @@
+train: D:\MD\model_durian\dataset\train\images
+val: D:\MD\model_durian\dataset\valid\images
+test: D:\MD\model_durian\dataset\test\images
+
+nc: 3
+names: ['defective', 'immature', 'mature']
+
+roboflow:
+
+  workspace: carl-bwzge
+  project: durian-thesis
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/carl-bwzge/durian-thesis/dataset/3
